@@ -5,17 +5,23 @@
             @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
             body {
-                background-color: aqua;
+                background-color: rgb(78, 56, 21);
             }
             h1 {
   font-family: "Monoton", serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   text-align: center;
 }
+h2{
+font-weight: 1400;
+  font-style: normal;
+  text-align: center; 
+  font-size: x-large;
+}
         
             p {
-  color: purple;
+  color: rgb(173, 28, 28);
   text-align: center;
 }
 img{
@@ -27,12 +33,34 @@ video{display: block;
     width: 1600px;
     margin:auto;
 }
+a{
+    margin: auto;
+    text-align: center;}
+
+    .warning {
+  border: 10px ridge #f00;
+  background-color: #ff0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.warning img {
+  width: 100%;
+}
+
+.warning p {
+  font: small-caps bold 1.2rem sans-serif;
+  text-align: center;
+}
+
 
         </style>       
     </head>
     <body>
-        <h1>Hello</h1>
-        <p>Hello World!</p>
+        <h1>3D PORT SCENE</h1>
+        <h2>World Building</h2>
+        <p>By Reed Axtell</p>
         <video controls width="1600">
             <source src="/media/cc0-videos/flower.webm" type="video/webm" />
           
@@ -44,6 +72,12 @@ video{display: block;
             <a href="/PORT.mp4">MP4</a>
             video.
           </video>
+          <a href="https://example.com">Website</a>
         <img src="dither_it_IMG_9504.jpg" alt="A big rock">
+        <div class="warning">
+            <img src="/dither_it_IMG_9504.jpg" alt="An intimidating leopard." />
+            <p>Beware of the leopard</p>
+          </div>
+          
     </body>
 </html>
